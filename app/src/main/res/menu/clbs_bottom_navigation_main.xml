@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab01"
+        android:enabled="true"
+        android:icon="@drawable/clbs_map_ic"
+        android:title="@string/clbs_tab01_title"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab02"
+        android:enabled="true"
+        android:icon="@drawable/clbs_map_ic"
+        android:title="@string/clbs_tab02_title"
+        app:showAsAction="always" />
+</menu>

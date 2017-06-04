@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">CLBS Android Test</string>
+
+    <!-- String Map Activity Section -->
+    <string name="clbs_title">Map Application</string>
+    <string name="clbs_company">CLBS</string>
+    <string name="clbs_latitude_input">Latitude : </string>
+    <string name="clbs_longitude_input">Longitude : </string>
+    <string name="clbs_radius_input">Radius : </string>
+
+    <string name="clbs_map_input_description">Please input parameters.</string>
+    <string name="clbs_map_input_condition">Radius must Defines the distance (in meters)
+        \n\The maximum allowed radius is 50,000 meters</string>
+    <string name="clbs_submit_button">Search</string>
+
+    <string name="clbs_tab01_title">Search Type A</string>
+    <string name="clbs_tab02_title">Search Type B</string>
+
+    <string name="clbs_error">Error</string>
+    <string name="clbs_ok">OK</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+</resources>

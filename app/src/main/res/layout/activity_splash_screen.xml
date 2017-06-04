@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Binding Layout Start -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Root View Start -->
+    <RelativeLayout
+        android:id="@+id/activity_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/clbs_background"
+        tools:context="test.clbs.android.example.com.clbsandroidtest.HomeActivity">
+
+        <!-- Body Start -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/mapInputHeaderScrollView"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+
+            <!-- Text Description Field -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="146dp"
+                android:text="@string/clbs_company"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/clbsPrimaryFontColor"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="56dp"
+                android:text="@string/clbs_title"
+                android:textColor="@color/clbsPrimaryFontColor"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true" />
+        <!-- Body End -->
+
+    </RelativeLayout>
+    <!-- Root View End -->
+
+</layout>
+<!-- Binding Layout End -->

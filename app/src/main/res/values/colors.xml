@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Color -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Font Color -->
+    <color name="clbsPrimaryFontColor">#EFEFEF</color>
+    <color name="clbsPrimaryFontColorDarkGray">#484e54</color>
+    <color name="clbsPrimaryFontColorDurkBlue">#3F51B5</color>
+    <color name="clbsPrimaryFontColorDustBlue">#7170b3</color>
+
+    <!-- Button Color-->
+    <color name="clbsPrimaryButtonBgColorWarmGray">#897f7f</color>
+
+    <!-- Background Color -->
+    <color name="clbsBaseBackgroundColor">#ffffff</color>8eb3d1
+    <color name="clbsBaseDialogBackgroundColor">#9fadd0</color>
+
+</resources>
